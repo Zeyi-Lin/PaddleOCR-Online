@@ -24,7 +24,7 @@
 
 ## 🔧How To Use
 
-### 🚀推理
+### 推理
 
 找到`./paddleocr_v3_inference.py`，在第166行修改为你的本地图像路径即可。
 
@@ -36,7 +36,9 @@ if __name__ == '__main__':
     cv2.imwrite("./drawed_img.jpg", draw_img)
 ```
 
-### 🎨GUI界面
+<br>
+
+### GUI界面
 
 [🦢在线体验链接](https://blackswanai.cn/ZeYiLin/PaddleOCR_PyTorch/demo)
 
