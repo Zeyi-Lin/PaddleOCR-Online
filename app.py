@@ -9,6 +9,7 @@ def inference(input_image):
 if __name__ == "__main__":
     gr.Interface(
         fn=inference,
+        title="PaddleOCR",
         inputs="image",
         outputs=["image", gr.JSON()],
         examples=["./images/01.jpg",
