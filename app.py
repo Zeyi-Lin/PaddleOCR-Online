@@ -8,6 +8,7 @@ def inference(input_image):
 
 if __name__ == "__main__":
     gr.Interface(
+        title="PaddleOCR_PyTorch",
         fn=inference,
         inputs="image",
         outputs=["image", gr.JSON()]).launch()
