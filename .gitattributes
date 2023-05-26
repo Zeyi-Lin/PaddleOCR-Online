@@ -1,0 +1,2 @@
+ch_ptocr_v3_det_infer.pth filter=lfs diff=lfs merge=lfs -text
+ch_ptocr_v3_rec_infer.pth filter=lfs diff=lfs merge=lfs -text
