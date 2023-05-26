@@ -131,7 +131,7 @@ dmypy.json
 # tar
 *.tar
 
-# pth
+*.pth
 
 # idea
 *.idea
