@@ -15,6 +15,7 @@ import tools.infer.predict_rec as predict_rec
 import tools.infer.predict_det as predict_det
 import tools.infer.predict_cls as predict_cls
 from pytorchocr.utils.utility import get_image_file_list, check_and_read_gif
+import cv2
 from tools.infer.pytorchocr_utility import draw_ocr_box_txt
 
 
@@ -161,9 +162,7 @@ def inferenceOCR(input_image):
     return draw_img, return_json
 
 
-
 if __name__ == '__main__':
-    import cv2
     image = cv2.imread("./doc/imgs/1.jpg")
     draw_img, return_json = inferenceOCR(image)
     print(return_json)
