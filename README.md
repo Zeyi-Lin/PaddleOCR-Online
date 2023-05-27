@@ -2,8 +2,8 @@
 
 > 本项目旨在：对[PaddleOCR2PyTorch](https://github.com/frotms/PaddleOCR2Pytorch)项目做在线可视化，让体验与部署更轻松。
 
-- 在线演示：[SwanHub Demo](https://blackswanai.cn/ZeYiLin/PaddleOCR_PyTorch/demo)
-- 权重文件：[LFS Files](https://blackswanai.cn/ZeYiLin/PaddleOCR_PyTorch/tree/main)
+- 在线演示：[SwanHub Demo](https://swanhub.co/ZeYiLin/PaddleOCR_PyTorch/demo)
+- 权重文件：[LFS Files](https://swanhub.co/ZeYiLin/PaddleOCR_PyTorch/tree/main)
 
 ![image-20230526202340274](https://typoraimagbed.oss-cn-beijing.aliyuncs.com/image-20230526202340274.png)
 
@@ -15,10 +15,10 @@
 
 [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)是PaddlePaddle推出的一套丰富、领先、且实用的OCR工具库。
 
-本项目所用的权重为PP_V3系列，以LFS托管于[SwanHub](https://blackswanai.cn/ZeYiLin/PaddleOCR_PyTorch)
+本项目所用的权重为PP_V3系列，以LFS托管于[SwanHub](https://swanhub.co/ZeYiLin/PaddleOCR_PyTorch)
 
-- 文本检测模型（2.42MB）：[ch_ptocr_v3_det_infer.pth](https://blackswanai.cn/ZeYiLin/PaddleOCR_PyTorch/blob/main?path=ch_ptocr_v3_det_infer.pth) 
-- 文本识别模型（10.17MB）： [ch_ptocr_v3_rec_infer.pth](https://blackswanai.cn/ZeYiLin/PaddleOCR_PyTorch/blob/main?path=ch_ptocr_v3_rec_infer.pth)，
+- 文本检测模型（2.42MB）：[ch_ptocr_v3_det_infer.pth](https://swanhub.co/ZeYiLin/PaddleOCR_PyTorch/blob/main?path=ch_ptocr_v3_det_infer.pth) 
+- 文本识别模型（10.17MB）： [ch_ptocr_v3_rec_infer.pth](https://swanhub.co/ZeYiLin/PaddleOCR_PyTorch/blob/main?path=ch_ptocr_v3_rec_infer.pth)，
 
 
 
@@ -40,7 +40,7 @@ if __name__ == '__main__':
 
 ### GUI界面
 
-[🦢在线体验链接](https://blackswanai.cn/ZeYiLin/PaddleOCR_PyTorch/demo)
+[🦢在线体验链接](https://swanhub.co/ZeYiLin/PaddleOCR_PyTorch/demo)
 
 GUI界面使用Gradio构建，本地运行：
 
